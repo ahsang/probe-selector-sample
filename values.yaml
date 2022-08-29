@@ -1,0 +1,5 @@
+prometheus:
+  prometheusSpec:
+    probeSelector:
+      matchLabels:
+        foo: bar
